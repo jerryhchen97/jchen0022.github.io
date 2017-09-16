@@ -77,14 +77,8 @@ h1#title {
 #about #about-text p {
   margin: 1em;
   margin-left: 2em;
-  font-size: 1.2em;
-}
-
-#about .about-toggle {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 2.1em;
+  font-size: 1.4em;
+  min-width: 300px;
 }
 
 /* Projects */
@@ -102,5 +96,5 @@ h1#title {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  right: 2.1em;
+  right: 1em;
 }
