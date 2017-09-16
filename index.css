@@ -1,0 +1,106 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.full-container {
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding-top: 11em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.nodisplay {
+  display: none;
+}
+
+h1#title {
+  font-size: 5.3em;
+}
+
+.title-div {
+  position: relative;
+}
+
+.arrow {
+  font-size: 2em;
+}
+
+
+/* Main */
+
+.main-link {
+  text-decoration: none;
+  color: #363636;
+}
+
+.main-link:hover, .main-link:active, .main-link:focus {
+  color: #363636;
+}
+
+.main-link:focus {
+  text-decoration: none;
+}
+
+.main-link:focus:hover {
+  text-decoration:underline;
+}
+
+/* About */
+
+#about #jerry-img {
+  width: 22em;
+  border-radius: 3em;
+  display: inline-block;
+}
+
+#about #about-img-text {
+  margin-top: 20px;
+  position: relative;
+}
+
+#about #about-text {
+  display: inline-block;
+  position: absolute;
+}
+
+#about #about-text p {
+  margin: 1em;
+  margin-left: 2em;
+  font-size: 1.2em;
+}
+
+#about .about-toggle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 2.1em;
+}
+
+/* Projects */
+
+
+/* Berkeley Groups */
+
+
+/* BRDO */
+
+
+/* All */
+
+.toggle-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 2.1em;
+}
