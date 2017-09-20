@@ -83,6 +83,18 @@ h1#title {
 
 /* Projects */
 
+.project .proj-info {
+  display: inline-block;
+  position: absolute;
+  margin-top: 1em;
+}
+
+.project .proj-text p {
+  margin: 0em;
+  font-size: 1.4em;
+  min-width: 300px;
+}
+
 
 /* Berkeley Groups */
 
