@@ -2,7 +2,9 @@ function moveAbout(e) {
     e.preventDefault();
     $("#main").toggle("slide", {direction: "right"}, 500);
     $("#about").toggle("slide", {direction: "left"}, 500);
+    /*
     history.pushState({prevPage: "home"}, "about", "/about")
+    */
 }
 
 function moveProjects(e) {
