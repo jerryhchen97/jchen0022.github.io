@@ -56,6 +56,14 @@ h1#title {
   text-decoration:underline;
 }
 
+.no-top {
+  margin-top: 0em;
+}
+
+.first-row {
+  margin-top: 1em;
+}
+
 /* About */
 
 #about #jerry-img {
