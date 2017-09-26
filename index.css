@@ -36,6 +36,14 @@ h1#title {
   font-size: 2em;
 }
 
+.link-green {
+  color: #80AD70;
+}
+
+.link-green:hover, .link-green:active, .link-green:focus {
+  color: #487746
+}
+
 
 /* Main */
 
